@@ -10,7 +10,7 @@ export default function Navbar() {
   };
   return (
     // starts Navbar
-    // bismillah
+    // wtf
     <div className="navbar container">
       <div className="logo-container">
         <a href="">
