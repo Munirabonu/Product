@@ -65,17 +65,3 @@ export default function Navbar() {
     //end
   );
 }
-
-// const closeMenu = () => {
-//   setNavbarOpen(false);
-// };
-{
-  /* <NavLink
-  to={link.path}
-  activeClassName="active-link"
-  onClick={() => closeMenu()}
-  exact
->
-  {link.text}
-</NavLink> */
-}
