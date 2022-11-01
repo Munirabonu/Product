@@ -1,3 +1,74 @@
-h1 {
-    color: aqua;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin-bottom: 25px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.logo-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  color: #173a56;
+}
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.menu--links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transition: 0.3s ease-in;
+  list-style-type: none;
+}
+.menu--link a {
+  text-decoration: none;
+}
+.menu--link a:active,
+.menu--link a:hover {
+  font-weight: 600;
+}
+.btn-navbar__group {
+  display: flex;
+  gap: 24px;
+}
+.btn-navbar__group button {
+  padding: 9px 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.sign-in__btn {
+  border: none;
+  color: #173a56;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  background: transparent;
+}
+.sign-up__btn {
+  border: none;
+  background: #02897a;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.res {
+  display: none;
+}
+@media screen and (max-width: 1000px) {
+  .res {
+    display: block;
+  }
 }
