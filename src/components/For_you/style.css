@@ -2,26 +2,11 @@
   padding: 50px 147px;
 }
 .wrap {
-  position: relative;
-  overflow: hidden;
-}
-.wrap::before {
-  width: 140%;
-  height: 80%;
-  position: absolute;
-  bottom: 0;
-  left: -20%;
-  right: -20%;
-  content: "";
-  background: linear-gradient(
-    179.59deg,
-    #ededed 0.25%,
-    rgba(255, 255, 255, 0.0001) 99.63%
-  );
-  transform: rotate(180deg);
-  z-index: -1;
-  border-top-left-radius: 100vw;
-  border-radius:100%;
+
+    background: url(../../media/bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
 }
 .title {
   text-align: center;
