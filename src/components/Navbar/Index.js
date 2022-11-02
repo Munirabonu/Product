@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./style.css";
-import { MdClose } from "react-icons/md";
-import { FiMenu } from "react-icons/fi";
-import { Logo, Theme } from "../../media/icons";
+// import { MdClose } from "react-icons/md";
+// import { FiMenu } from "react-icons/fi";
+// import { Logo, Theme } from "../../media/icons";
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const handleToggle = () => {
@@ -10,7 +10,7 @@ export default function Navbar() {
   };
   return (
     // starts Navbar
-    // wtf
+    // wtff
     <div className="navbar container">
       <div className="logo-container">
         <a href="">
@@ -50,7 +50,7 @@ export default function Navbar() {
         <a href="">
           <Theme />
         </a>
-        <button className="res" onClick={handleToggle}>
+        {/* <button className="res" onClick={handleToggle}>
           {navbarOpen ? (
             <MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />
           ) : (
@@ -58,24 +58,9 @@ export default function Navbar() {
               style={{ color: "#7b7b7b", width: "40px", height: "40px" }}
             />
           )}
-        </button>
+        </button> */}
       </div>
     </div>
     // Navbar End
-    //end
   );
-}
-
-// const closeMenu = () => {
-//   setNavbarOpen(false);
-// };
-{
-  /* <NavLink
-  to={link.path}
-  activeClassName="active-link"
-  onClick={() => closeMenu()}
-  exact
->
-  {link.text}
-</NavLink> */
 }
