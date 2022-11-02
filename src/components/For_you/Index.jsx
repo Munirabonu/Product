@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   FirstClickTest,
   PreferenceTest,
@@ -6,6 +7,7 @@ import {
   FiveSecondTest,
 } from "../../media/icons";
 import "./style.css";
+
 export default function ForYou() {
   const card = [
     {

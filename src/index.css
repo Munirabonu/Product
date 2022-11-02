@@ -5,6 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  max-width: 1091px;
+  margin: 0 auto;
+}
 .font-size_1626 {
   font-family: "Poppins";
   font-style: normal;
@@ -30,10 +34,7 @@
   line-height: 48px;
   color: #22343d;
 }
-.container {
-  max-width: 1091px;
-  margin: 0 auto;
-}
+
 @media screen and (max-width: 1100px) {
   .container {
     max-width: 991px;
@@ -44,9 +45,3 @@
     max-width: 891px;
   }
 }
-
-/* font-family: 'Inter', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
- */

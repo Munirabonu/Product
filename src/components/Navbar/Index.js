@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import { Logo, Theme } from "../../media/icons";
 import "./style.css";
+
 export default function Navbar() {
   return (
     <div className="navbar container">
@@ -15,24 +17,24 @@ export default function Navbar() {
         <nav className="nav">
           <ul className="menu-links">
             <li className="menu--link">
-              <a href="" className="font-size_1626">
+              <Link to="/" className="font-size_1626">
                 Product
-              </a>
+              </Link>
             </li>
             <li className="menu--link">
-              <a href="" className="font-size_1626">
+              <Link to="/" className="font-size_1626">
                 Customers
-              </a>
+              </Link>
             </li>
             <li className="menu--link">
-              <a href="" className="font-size_1626">
+              <Link to="/" className="font-size_1626">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li className="menu--link">
-              <a href="" className="font-size_1626">
+              <Link to="/" className="font-size_1626">
                 Resources
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

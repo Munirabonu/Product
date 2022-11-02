@@ -1,0 +1,33 @@
+.join {
+  max-width: 968px;
+  height: 345px;
+  padding: 5px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background: #02897a;
+  border-radius: 32px;
+  margin: 0 auto;
+}
+.join-left {
+  padding: 35px 25px;
+}
+.join--title {
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+.join--btn {
+  width: 150px;
+  height: 50px;
+  background: #ffffff;
+  border-radius: 8px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #02897a;
+  cursor: pointer;
+}
