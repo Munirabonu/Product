@@ -10,7 +10,7 @@
   align-items: center;
   gap: 16px;
 }
-.logo-text {
+.logo-title {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -24,7 +24,7 @@
   align-items: center;
   gap: 24px;
 }
-.menu--links {
+.menu-links {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -38,20 +38,18 @@
 .menu--link a:hover {
   font-weight: 600;
 }
-.btn-navbar__group {
+.navbar__btn-group {
   display: flex;
   gap: 24px;
 }
-.btn-navbar__group button {
-  padding: 9px 24px;
-  font-family: "Poppins";
-  font-style: normal;
+.navbar__btn-group button {
+  height: 43px;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 .sign-in__btn {
+  width: 102px;
   border: none;
   color: #173a56;
   border: 1px solid #bcd0e5;
@@ -59,16 +57,18 @@
   background: transparent;
 }
 .sign-up__btn {
+  width: 110px;
   border: none;
   background: #02897a;
+  border: 1px solid #02897a;
   border-radius: 4px;
   color: #ffffff;
 }
-.res {
-  display: none;
+.sign-in__btn:hover{
+  background: #173a56;
+  color: #fff;
 }
-@media screen and (max-width: 1000px) {
-  .res {
-    display: block;
-  }
+.sign-up__btn:hover {
+  color: #02897a;
+  background-color: #ffffff;
 }

@@ -1,12 +1,31 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import "./style.css";
-// import { Header } from "../../media/images";
-
+import hero from "../../media/hero.png";
+import {TriangleOfWatchVideo} from "../../media/icons"
 export default function Hero() {
+  console.log(hero);
   return (
     <div className="hero container">
-      <div className="hero-left">salom</div>
-      <div className="hero-right">{/* <Header/> */}</div>
+      <div className="hero-left">
+        <h1>Work at the speed of thought</h1>
+        <p>
+          Tools, tutorials, design and innovation experts, all in one place! The
+          most intuitive way to imagine your next user experience.
+        </p>
+        <div className="hero__btn-group">
+          <button className="get-started__btn font-size_1626">
+            Get started
+          </button>
+          <Link className="watch-video font-size_1626">
+            <TriangleOfWatchVideo />
+            Watch the Video
+          </Link>
+        </div>
+      </div>
+      <div className="hero-right">
+        <img src={hero} alt="hero-bg" />
+      </div>
     </div>
   );
 }
