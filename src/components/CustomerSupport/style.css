@@ -1,0 +1,19 @@
+.customer-support {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 94px;
+  margin: 150px auto;
+}
+.customer-support__right h5 {
+  margin-bottom: 8px;
+}
+.customer-support__right .customer-support__text {
+  margin-bottom: 30px;
+}
+.customer-support__map--item {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+}

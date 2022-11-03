@@ -11,7 +11,6 @@ export default function Join() {
           Join 100 Compannies who boost their business with Product
         </h2>
         <button className="join--btn">Get This</button>
-        <button>aaaaa</button>
       </div>
       <div className="join-right">
         <img src={chart} alt="" />

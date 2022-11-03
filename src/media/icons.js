@@ -1,17 +1,34 @@
 import React from "react";
 export function bg_img() {
   return (
-    <svg width="1400" height="390" viewBox="0 0 1400 390" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M692.343 389.829C207.738 390.422 -278.12 116.867 -420.409 29.8361C-433.049 22.1049 -427.495 3.54608 -412.678 3.52792L1811.89 0.803345C1826.75 0.785156 1832.32 19.4038 1819.62 27.1203C1675.79 114.532 1184.69 389.226 692.343 389.829Z" fill="url(#paint0_linear_1_85)" />
+    <svg
+      width="1400"
+      height="390"
+      viewBox="0 0 1400 390"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M692.343 389.829C207.738 390.422 -278.12 116.867 -420.409 29.8361C-433.049 22.1049 -427.495 3.54608 -412.678 3.52792L1811.89 0.803345C1826.75 0.785156 1832.32 19.4038 1819.62 27.1203C1675.79 114.532 1184.69 389.226 692.343 389.829Z"
+        fill="url(#paint0_linear_1_85)"
+      />
       <defs>
-        <linearGradient id="paint0_linear_1_85" x1="1819.9" y1="388.519" x2="1819.44" y2="-0.498001" gradientUnits="userSpaceOnUse">
+        <linearGradient
+          id="paint0_linear_1_85"
+          x1="1819.9"
+          y1="388.519"
+          x2="1819.44"
+          y2="-0.498001"
+          gradientUnits="userSpaceOnUse"
+        >
           <stop stop-color="#EDEDED" />
           <stop offset="1" stop-color="white" stop-opacity="0.01" />
         </linearGradient>
       </defs>
     </svg>
-
-  )
+  );
 }
 export function logo() {
   return (
@@ -402,6 +419,132 @@ export function FiveSecondTest(params) {
           />
         </clipPath>
       </defs>
+    </svg>
+  );
+}
+export function OrangeCheckedIcon(params) {
+  return (
+    <svg
+      width="35"
+      height="36"
+      viewBox="0 0 35 36"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="1.45833"
+        y="1.7596"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        fill="#FF9900"
+      />
+      <rect
+        x="1.45833"
+        y="1.7596"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        stroke="white"
+        stroke-width="2.91667"
+      />
+      <rect
+        x="1.45833"
+        y="1.7596"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        stroke="#FF9900"
+        stroke-width="2.91667"
+      />
+      <path
+        d="M25.7657 12.5406C25.4533 12.2215 24.9468 12.2215 24.6343 12.5406L15.0498 22.329L11.3657 18.5665C11.0533 18.2475 10.5468 18.2475 10.2343 18.5665C9.92189 18.8856 9.92189 19.4029 10.2343 19.7219L14.4841 24.0621C14.7964 24.3811 15.3033 24.3809 15.6155 24.0621L25.7657 13.696C26.0781 13.377 26.0781 12.8597 25.7657 12.5406Z"
+        fill="white"
+      />
+    </svg>
+  );
+}
+export function RedCheckedIcon() {
+  return (
+    <svg
+      width="35"
+      height="36"
+      viewBox="0 0 35 36"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="1.45833"
+        y="1.7596"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        fill="#F03E3D"
+      />
+      <rect
+        x="1.45833"
+        y="1.7596"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        stroke="white"
+        stroke-width="2.91667"
+      />
+      <rect
+        x="1.45833"
+        y="1.7596"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        stroke="#F03E3D"
+        stroke-width="2.91667"
+      />
+      <path
+        d="M25.7657 12.5406C25.4533 12.2215 24.9468 12.2215 24.6343 12.5406L15.0498 22.329L11.3657 18.5665C11.0533 18.2475 10.5468 18.2475 10.2343 18.5665C9.92189 18.8856 9.92189 19.4029 10.2343 19.7219L14.4841 24.0621C14.7964 24.3811 15.3033 24.3809 15.6155 24.0621L25.7657 13.696C26.0781 13.377 26.0781 12.8597 25.7657 12.5406Z"
+        fill="white"
+      />
+    </svg>
+  );
+}
+export function BlueCheckedIcon() {
+  return (
+    <svg
+      width="35"
+      height="36"
+      viewBox="0 0 35 36"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        x="1.45833"
+        y="1.7596"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        fill="#4D8DFF"
+      />
+      <rect
+        x="1.45833"
+        y="1.7596"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        stroke="white"
+        stroke-width="2.91667"
+      />
+      <rect
+        x="1.45833"
+        y="1.7596"
+        width="32.0833"
+        height="32.0833"
+        rx="12.3958"
+        stroke="#4D8DFF"
+        stroke-width="2.91667"
+      />
+      <path
+        d="M25.7657 12.5406C25.4533 12.2215 24.9468 12.2215 24.6343 12.5406L15.0498 22.329L11.3657 18.5665C11.0533 18.2475 10.5468 18.2475 10.2343 18.5665C9.92189 18.8856 9.92189 19.4029 10.2343 19.7219L14.4841 24.0621C14.7964 24.3811 15.3033 24.3809 15.6155 24.0621L25.7657 13.696C26.0781 13.377 26.0781 12.8597 25.7657 12.5406Z"
+        fill="white"
+      />
     </svg>
   );
 }

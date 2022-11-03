@@ -1,18 +1,18 @@
-.management {
-  margin-top: 150px;
+.collaborative {
+  margin-bottom: 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap:84px;
+  gap: 84px;
 }
-.management--left h5 {
+.collaborative--left h5 {
   font-weight: 600;
   margin-bottom: 8px;
 }
-.management--left p{
+.collaborative--left p{
   margin-bottom: 25px;
 }
-.management--left h6{
+.collaborative--left h6{
   font-weight: 600;
   margin-bottom: 12px;
 }
