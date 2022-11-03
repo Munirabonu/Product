@@ -10,14 +10,14 @@ import ClientFeedback from '../../components/ClientsFeedback/Index';
 export default function Home() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
-      <ForYou />
-      <Management />
-      <CustomerSupport/>
-      <Collaborative/>
-      <ClientFeedback/>
-      <Join/>
+      {/* <ForYou /> */}
+      {/* <Management /> */}
+      {/* <CustomerSupport/> */}
+      {/* <Collaborative/> */}
+      {/* <ClientFeedback/> */}
+      {/* <Join/> */}
     </div>
   )
 }

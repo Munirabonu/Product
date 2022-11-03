@@ -45,15 +45,128 @@
   background-color: #ffffff;
 }
 
-.watch-video{
+.watch-video {
   display: flex;
   align-items: center;
   gap: 9px;
-  color: #02897A;
+  color: #02897a;
   font-weight: 600;
   transition: all 0.3s ease-in;
 }
-.watch-video:hover{
+.watch-video:hover {
   color: #000000;
   text-decoration: none;
+}
+@media screen and (max-width: 1150px) {
+  .hero-right img {
+    width: 100%;
+    width: 500px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .hero-right img {
+    width: 430px;
+  }
+  .hero-left h1 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .hero-left p {
+    margin-bottom: 40px;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .hero__btn-group{
+    gap: 25px;
+  }
+  .get-started__btn{
+    width: 150px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hero-right img {
+    width: 370px;
+  }
+  .hero-left h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .hero-left p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .get-started__btn{
+    width: 130px;
+    font-size: 15px;
+  }
+  .watch-video{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hero-right img {
+    width: 320px;
+  }
+  .hero-left h1 {
+    margin-bottom: 7px;
+    font-size: 27px;
+    line-height: 35px;
+  }
+  .hero-left p {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .get-started__btn{
+    width: 120px;
+    height: 45px;
+  }
+  .hero__btn-group{
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hero-right img {
+    width: 300px;
+  }
+  .hero{
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero__btn-group {
+    justify-content: center;
+  }
+  .hero-left h1 {
+    margin-bottom: 11px;
+    line-height: 40px;
+  }
+  .hero-left p {
+    margin-bottom: 25px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero-right img {
+    width: 250px;
+  }
+  .hero-left h1 {
+    font-size: 25px;
+  }
+  .hero-left p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .get-started__btn{
+    height: 40px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero__btn-group{
+    flex-direction: column;
+  }
 }
