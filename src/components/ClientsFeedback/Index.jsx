@@ -48,7 +48,7 @@ export default function ClientFeedback() {
                 <StarColored />
                 <StarUnColored />
               </div>
-              <p>
+              <p className="font-size_1626">
                 Product helps you see how many more days you need to work to
                 reach your financial goal.
               </p>

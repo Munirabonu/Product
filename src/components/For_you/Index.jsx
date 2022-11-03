@@ -53,7 +53,7 @@ export default function ForYou() {
             );
           })}
         </div>
-        <button className="btn font-size_1626">SIGN UP NOW</button>
+        <button className="btn sign-up--btn font-size_1626">SIGN UP NOW</button>
       </div>
     </div>
   );

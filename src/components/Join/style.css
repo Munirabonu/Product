@@ -31,3 +31,57 @@
   color: #02897a;
   cursor: pointer;
 }
+@media screen and (max-width: 1170px) {
+  .join {
+    max-width: 80%;
+    padding: 10px;
+    height: auto;
+    align-items: center;
+  }
+  .join--title {
+    margin-bottom: 30px;
+  }
+  .join-right img {
+    width: 100%;
+    width: 370px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 970px) {
+  .join--title {
+    margin-bottom: 20px;
+  }
+  .join-right img {
+    width: 300px;
+  }
+  .join-left {
+    padding: 0px 0px 0px 25px;
+  }
+}
+@media screen and (max-width: 868px) {
+  .join--title {
+    margin-bottom: 20px;
+  }
+  .join-right img {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .join-left {
+    padding: 15px;
+  }
+  .join {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .join {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .join-left {
+    padding: 15px 0;
+  }
+}
