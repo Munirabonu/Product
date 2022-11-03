@@ -34,7 +34,14 @@
   line-height: 48px;
   color: #22343d;
 }
-
+.font-size_3451 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343d;
+}
 @media screen and (max-width: 1100px) {
   .container {
     max-width: 991px;

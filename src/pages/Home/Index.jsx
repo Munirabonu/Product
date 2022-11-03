@@ -6,6 +6,7 @@ import Join from "../../components/Join/Index"
 import Management from '../../components/Management/Index';
 import Collaborative from '../../components/Collaborative/Index';
 import CustomerSupport from '../../components/CustomerSupport/Index';
+import ClientFeedback from '../../components/ClientsFeedback/Index';
 export default function Home() {
   return (
     <div>
@@ -15,6 +16,7 @@ export default function Home() {
       <Management />
       <CustomerSupport/>
       <Collaborative/>
+      <ClientFeedback/>
       <Join/>
     </div>
   )

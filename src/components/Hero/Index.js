@@ -6,7 +6,6 @@ import hero from "../../media/hero.png";
 import { TriangleOfWatchVideo } from "../../media/icons"
 
 export default function Hero() {
-  console.log(hero);
   return (
     <div className="hero container">
       <div className="hero-left">

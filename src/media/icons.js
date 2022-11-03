@@ -564,7 +564,7 @@ export function StarColored(params) {
     </svg>
   );
 }
-export function StartUnColored(params) {
+export function StarUnColored(params) {
   return (
     <svg
       width="19"
