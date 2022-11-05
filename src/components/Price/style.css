@@ -1,0 +1,101 @@
+.price_cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+}
+.price_card_item {
+  width: 325px;
+  height: 456px;
+  display: grid;
+  align-content: space-between;
+  text-align: center;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.card_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343d;
+}
+.card_desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  color: #22343d;
+}
+.per_wrap {
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 50px 16px 100px;
+  justify-content: space-between;
+  justify-items: center;
+}
+.per_price {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #02897a;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.per_status {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #02897a;
+}
+.per_type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1px;
+  color: #afafaf;
+}
+.card_operators {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  color: #22343d;
+}
+.card_add_one {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: 0.2px;
+
+  color: #22343d;
+}
+.card_add_two {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  letter-spacing: 0.2px;
+
+  color: #22343d;
+}
+.card_btn {
+  width: 139px;
+  height: 44px;
+  background: #02897a;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+    display: block;
+    border: none;
+    margin: auto;
+}
