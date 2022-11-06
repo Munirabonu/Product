@@ -16,7 +16,10 @@
   line-height: 28px;
   text-align: center;
   letter-spacing: 0.2px;
-  color: #22343d;
+  color: var(--secondary);
+}
+.dark .client-feedback__text{
+  color: var(--white);
 }
 .client-feedback__map {
   display: flex;
@@ -27,8 +30,8 @@
 .client-feedback__map--item {
   padding: 25px 0 25px 25px;
   max-width: 327px;
-  background: #ffffff;
-  border: 1px solid #dedede;
+  background: var(--white);
+  border: 1px solid var(--lightgray);
   border-radius: 5px;
 }
 .star-box {
@@ -45,7 +48,10 @@
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.2px;
-  color: #737373;
+  color: var(--gray);
+}
+.dark .client-feedback__map--item p{
+  color: var(--gray);
 }
 .client-info__box {
   display: flex;
@@ -59,7 +65,7 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.2px;
-  color: #02897a;
+  color: var(--green);
 }
 .client-name__box h6 {
   font-family: "Poppins";
@@ -68,7 +74,7 @@
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.2px;
-  color: #252b42;
+  color: var(--darkblue);
 }
 @media screen and (max-width: 1170px) {
   .client-feedback__map--item {

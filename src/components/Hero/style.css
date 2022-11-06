@@ -12,7 +12,10 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
-  color: #22343d;
+  color: var(--secondary);
+}
+.dark .hero-left h1{
+  color: var(--white);
 }
 .hero-left p {
   margin-bottom: 45px;
@@ -21,7 +24,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  color: #22343d;
+  color: var(--secondary);
+}
+.dark .hero-left p{
+  color: var(--white);
 }
 .hero__btn-group {
   display: flex;
@@ -33,12 +39,15 @@
   display: flex;
   align-items: center;
   gap: 9px;
-  color: #02897a;
+  color: var(--green);
   font-weight: 600;
   transition: all 0.3s ease-in;
 }
+.dark .watch-video svg path{
+  fill: #ffffff;
+}
 .watch-video:hover {
-  color: #000000;
+  color: var(--dark);
   text-decoration: none;
 }
 @media screen and (max-width: 1150px) {

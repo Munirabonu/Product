@@ -40,7 +40,7 @@ export default function ClientFeedback() {
       <div className="client-feedback__map">
         {clientData?.map(
           ({ id, text, clientImg, clientNickname, clientJob }) => (
-            <div className="client-feedback__map--item">
+            <div className="client-feedback__map--item" key={id}>
               <div className="star-box">
                 <StarColored />
                 <StarColored />
@@ -49,11 +49,10 @@ export default function ClientFeedback() {
                 <StarUnColored />
               </div>
               <p className="font-size_1626">
-                Product helps you see how many more days you need to work to
-                reach your financial goal.
+                {text}
               </p>
               <div className="client-info__box">
-                <img src={clientImg} alt="" />
+                <img src={clientImg} alt="client image" />
                 <div className="client-name__box">
                   <h5>{clientNickname}</h5>
                   <h6>{clientJob}</h6>

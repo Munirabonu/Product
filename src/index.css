@@ -1,9 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@600&family=Poppins:wght@400;500;600;700&family=Roboto&display=swap");
 
+:root {
+  --white: #ffffff;
+  --secondary: #22343d;
+  --green: #02897a;
+  --blue: #173a56;
+  --lightblue: #bcd0e5;
+  --dark: #000000;
+  --lightgray: #dedede;
+  --gray: #737373;
+  --darkblue: #252b42;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: all 1s ease-in-out;
 }
 .container {
   max-width: 1091px;
@@ -15,7 +27,10 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #22343d;
+  color: var(--secondary);
+}
+.dark .font-size_1626 {
+  color: var(--white);
 }
 .font-size_2233 {
   font-family: "Poppins";
@@ -23,7 +38,10 @@
   font-weight: 600;
   font-size: 22px;
   line-height: 33px;
-  color: #22343d;
+  color: var(--secondary);
+}
+.dark .font-size_2233 {
+  color: var(--white);
 }
 .font-size_3248 {
   margin-bottom: 23px;
@@ -32,7 +50,10 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
-  color: #22343d;
+  color: var(--secondary);
+}
+.dark .font-size_3248 {
+  color: var(--white);
 }
 .font-size_3451 {
   font-family: "Poppins";
@@ -40,7 +61,10 @@
   font-weight: 700;
   font-size: 34px;
   line-height: 51px;
-  color: #22343d;
+  color: var(--secondary);
+}
+.dark .font-size_3451 {
+  color: var(--white);
 }
 .btn {
   width: 175px;
@@ -50,17 +74,21 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: var(--white);
   border: none;
-  background: #02897a;
+  background: var(--green);
   border-radius: 4px;
-  border: 2px solid #02897a;
+  border: 2px solid var(--green);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 .btn:hover {
-  color: #02897a;
-  background-color: #ffffff;
+  color: var(--green);
+  background-color: var(--white);
+}
+.dark .btn{
+  background: var(--white);
+  color: var(--secondary);
 }
 @media screen and (max-width: 1170px) {
   .container {
