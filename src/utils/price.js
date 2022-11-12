@@ -12,7 +12,7 @@ export const price=[
         id:2,
         title:'Standard',
         desc:'Brief price description',
-        per_month:'5',
+        price:'5',
         operators:'5+',
         add_one:'Notifications',
         add_two:'Landing Pages'
@@ -20,7 +20,7 @@ export const price=[
         id:3,
         title:'Premium',
         desc:'Brief price description',
-        per_month:'10',
+        price:'10',
         operators:'10+',
         add_one:'Notifications',
         add_two:'Landing Pages'
