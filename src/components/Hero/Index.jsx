@@ -6,7 +6,6 @@ import hero from "../../media/hero.png";
 import { TriangleOfWatchVideo } from "../../media/icons"
 
 export default function Hero() {
-  console.log(hero);
   return (
     <div className="hero container">
       <div className="hero-left">
@@ -16,7 +15,7 @@ export default function Hero() {
           most intuitive way to imagine your next user experience.
         </p>
         <div className="hero__btn-group">
-          <button className="get-started__btn font-size_1626">
+          <button className="btn get-started--btn font-size_1626">
             Get started
           </button>
           <Link className="watch-video font-size_1626">

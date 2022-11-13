@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import { Logo, Theme } from "../../media/icons";
 import "./style.css";
 
 export default function Navbar() {
+  const [theme, setTheme] = useState("light");
+  const toggleTheme = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  };
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
   return (
     <div className="navbar container">
       <div className="logo-container">
@@ -43,8 +54,33 @@ export default function Navbar() {
           <button className="sign-up__btn font-size_1626">Sign Up</button>
         </div>
         <Link to="/">
-          <Theme />
+          <button onClick={toggleTheme} className="theme--btn">
+            <Theme />
+          </button>
         </Link>
+        <div className="mobile-menu">
+          <input type="checkbox" id="active" />
+          <label htmlFor="active" className="menu-btn">
+            <span></span>
+          </label>
+          <label htmlFor="active" className="close"></label>
+          <div className="wrapper">
+            <ul>
+              <li>
+                <Link to="/">Product</Link>
+              </li>
+              <li>
+                <Link to="/">Customers</Link>
+              </li>
+              <li>
+                <Link to="/">Pricing</Link>
+              </li>
+              <li>
+                <Link to="/">Resources</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );
