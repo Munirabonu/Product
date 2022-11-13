@@ -7,6 +7,7 @@ import clientTwo from "../../media/client-two.png";
 import clientThree from "../../media/client-three.png";
 
 export default function ClientFeedback() {
+  
   const clientData = [
     {
       id: 1,
