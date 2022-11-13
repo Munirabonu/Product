@@ -7,7 +7,7 @@ import clientTwo from "../../media/client-two.png";
 import clientThree from "../../media/client-three.png";
 
 export default function ClientFeedback() {
-  
+
   const clientData = [
     {
       id: 1,
@@ -53,7 +53,7 @@ export default function ClientFeedback() {
                 {text}
               </p>
               <div className="client-info__box">
-                <img src={clientImg} alt="client image" />
+                <img src={clientImg} alt="client" />
                 <div className="client-name__box">
                   <h5>{clientNickname}</h5>
                   <h6>{clientJob}</h6>
