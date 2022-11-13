@@ -1,14 +1,19 @@
 import React from "react";
-import "./style.css";
 
+import "./style.css";
 import { price } from "../../utils/price";
+
 export default function Price() {
   return (
     <div className="price_wrap container">
+      <div className="title_wrap">
+      <h1 className="font-size_3248">Price Table</h1>
+      <p className="text font-size_1626">We offer competitive price</p>
+      </div>
       <div className="price_cards">
         {price?.map((item) => {
           return (
-            <div className="price_card_item">
+            <div className="price_card_item" key={item.id}>
               <p className="card_title">{item.title}</p>
               <p className="card_desc">{item?.desc}</p>
               <div className="per_wrap">

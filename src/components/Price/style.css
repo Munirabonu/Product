@@ -1,3 +1,13 @@
+.price_wrap {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.price_wrap h1 {
+  margin-bottom: 8px;
+}
+.price_wrap .text {
+  margin-bottom: 50px;
+}
 .price_cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -5,8 +15,7 @@
   gap: 50px;
 }
 .price_card_item {
-  transition: all .5s;
-  /* width: 325px; */
+  transition: all .3s;
   height: 456px;
   display: grid;
   align-content: space-between;
