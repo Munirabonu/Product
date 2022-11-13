@@ -1,7 +1,7 @@
 import React from "react";
-import ForYou from "../../components/For_you/Index";
 import Navbar from "../../components/Navbar/Index";
 import Hero from "../../components/Hero/Index";
+import ForYou from "../../components/For_you/Index";
 import Join from "../../components/Join/Index";
 import Management from "../../components/Management/Index";
 import Collaborative from "../../components/Collaborative/Index";
@@ -9,7 +9,7 @@ import CustomerSupport from "../../components/CustomerSupport/Index";
 import ClientFeedback from "../../components/ClientsFeedback/Index";
 export default function Home() {
   return (
-    <div>
+    <>
       <Navbar />
       <Hero />
       <ForYou />
@@ -18,6 +18,6 @@ export default function Home() {
       <Collaborative />
       <ClientFeedback />
       <Join />
-    </div>
+    </>
   );
 }
