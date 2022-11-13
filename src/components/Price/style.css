@@ -4,6 +4,7 @@
   justify-content: space-between;
 }
 .price_card_item {
+  transition: all .5s;
   width: 325px;
   height: 456px;
   display: grid;
@@ -27,13 +28,11 @@
   color: #22343d;
 }
 .per_wrap {
+  display: flex;
+  text-align: start;
   justify-content: center;
   align-items: center;
-  display: grid;
-  grid-template-columns: 50px 16px 100px;
-  justify-content: space-between;
-  justify-items: center;
-  padding: 0 60px;
+  gap: 10px;
 }
 .per_price {
   font-weight: 700;
@@ -42,8 +41,6 @@
   text-align: center;
   letter-spacing: 0.2px;
   color: #02897a;
-  grid-column: 1 / span 2;
-  grid-row: 1 / span 2;
 }
 .per_status {
   font-weight: 700;
@@ -55,11 +52,13 @@
 .per_type {
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 22px;
   letter-spacing: 0.1px;
   color: #afafaf;
 }
 .card_operators {
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
@@ -67,6 +66,8 @@
   color: #22343d;
 }
 .card_add_one {
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
@@ -74,6 +75,8 @@
   color: #22343d;
 }
 .card_add_two {
+  font-family: "Inter";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 22px;
@@ -92,4 +95,15 @@
   display: block;
   border: none;
   margin: auto;
+  transition: all .2s;
+}
+.price_card_item:hover {
+  background-color: #02897a;
+}
+.price_card_item:hover p {
+  color:white;
+}
+.price_card_item:hover .card_btn {
+  background-color: white;
+  color: #02897a;
 }
