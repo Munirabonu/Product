@@ -4,7 +4,7 @@
   padding: 5px 25px;
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   background: var(--green);
   border-radius: 32px;
   margin: 0 auto;
