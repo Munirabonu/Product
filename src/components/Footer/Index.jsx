@@ -6,7 +6,7 @@ import "./style.css";
 export default function Footer() {
   return (
     <div className="footer container">
-      <div className="flex">
+      <div className="layout">
         <div className="logo_wrap">
           <div className="logo-container">
             <Link to="/">
