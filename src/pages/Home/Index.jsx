@@ -7,10 +7,10 @@ import Join from "../../components/Join/Index";
 import Management from "../../components/Management/Index";
 import Collaborative from "../../components/Collaborative/Index";
 import CustomerSupport from "../../components/CustomerSupport/Index";
-import ClientFeedback from "../../components/ClientsFeedback/Index";
 import Price from "../../components/Price/Index";
 import Process from "../../components/Process/Index";
-
+import ClientFeedback from "../../components/ClientsFeedback/Index";
+import Footer from "../../components/Footer/Index";
 export default function Home() {
   return (
     <>
@@ -24,6 +24,7 @@ export default function Home() {
       <Price />
       <ClientFeedback />
       <Join />
+      <Footer />
     </>
   );
 }
