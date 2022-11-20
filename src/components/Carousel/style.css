@@ -1,0 +1,19 @@
+.Appp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+.rec-arrow-left {
+  display: none;
+}
+.rec-arrow-right {
+  display: none;
+}
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+}

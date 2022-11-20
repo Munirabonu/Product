@@ -11,7 +11,7 @@ import Price from "../../components/Price/Index";
 import Process from "../../components/Process/Index";
 import ClientFeedback from "../../components/ClientsFeedback/Index";
 import Footer from "../../components/Footer/Index";
-import Carousel from "../../components/Carousel/Index"
+import Carousell from "../../components/Carousel/Index"
 export default function Home() {
   return (
     <>
@@ -22,7 +22,7 @@ export default function Home() {
       <CustomerSupport />
       <Collaborative />
       <Process />
-      <Carousel/>
+      <Carousell/>
       <Price />
       <ClientFeedback />
       <Join />
