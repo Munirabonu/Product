@@ -3,37 +3,32 @@
   height: 359px;
   background: #ffffff;
   border-radius: 8px;
-  background-color: aliceblue;
   color: #22343d;
+  border: 1px solid #dedede;
 }
 .text_wrap {
   padding: 24px;
 }
 .text_wrap h1 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 28px;
   padding-bottom: 12px;
 }
-.text_wrap p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 40px;
+.text_wrap span {
+  font-weight: 600;
+}
+.card_wrap:hover p {
+  color: #02897A;
+}
+.card_wrap:hover {
+  box-shadow: 0 0 5px #dedede;
 }
 
-@media (max-width:768px) {
-    .card_wrap {
-        margin: auto;
-    }
-    
+@media (max-width: 768px) {
+  .card_wrap {
+    margin: auto;
+  }
 }
-@media (max-width:425px) {
-    .card_wrap {
-        width: 320px;
-    }
-
+@media (max-width: 425px) {
+  .card_wrap {
+    width: 320px;
+  }
 }

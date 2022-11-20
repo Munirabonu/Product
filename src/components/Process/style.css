@@ -1,7 +1,6 @@
 .process {
   width: 100%;
-  min-height: 100vh;
-  background: url(../../media/bg_top.png);
+  background: url(../../media/images/bg_top.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;

@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./style.css"
-import chart from "../../media/chart.png";
+import chart from "../../media/images/chart.png";
 
 export default function Join() {
   return (

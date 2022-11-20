@@ -1,6 +1,6 @@
 import React from "react";
 
-import management from "../../media/management-img.png";
+import management from "../../media/images/management-img.png";
 import "./style.css";
 
 export default function Management() {

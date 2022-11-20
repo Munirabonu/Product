@@ -1,6 +1,6 @@
 import React from "react";
 
-import collaborative from "../../media/collaborative-img.png";
+import collaborative from "../../media/images/collaborative-img.png";
 import "./style.css";
 
 export default function Collaborative() {

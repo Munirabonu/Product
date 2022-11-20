@@ -13,6 +13,7 @@ import ClientFeedback from "../../components/ClientsFeedback/Index";
 import Footer from "../../components/Footer/Index";
 import Carousell from "../../components/Carousel/Index"
 import Car from "../../components/Car/Index";
+
 export default function Home() {
   return (
     <>

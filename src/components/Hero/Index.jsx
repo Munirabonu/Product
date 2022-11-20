@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 import "./style.css";
-import hero from "../../media/hero.png";
-import { TriangleOfWatchVideo } from "../../media/icons"
+import hero from "../../media/images/hero.png";
+import { TriangleOfWatchVideo } from "../../media/icons";
 
 export default function Hero() {
   return (

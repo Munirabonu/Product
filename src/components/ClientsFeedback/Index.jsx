@@ -2,35 +2,9 @@ import React from "react";
 
 import "./style.css";
 import { StarColored, StarUnColored } from "../../media/icons";
-import clientOne from "../../media/client-one.png";
-import clientTwo from "../../media/client-two.png";
-import clientThree from "../../media/client-three.png";
+import { clientData } from "../../utils/clientData";
 
 export default function ClientFeedback() {
-
-  const clientData = [
-    {
-      id: 1,
-      text: "Product helps you see how many more days you need to work to reach your financial goal.",
-      clientImg: clientOne,
-      clientNickname: "Wahid Ari",
-      clientJob: "Designer",
-    },
-    {
-      id: 2,
-      text: "Product helps you see how many more days you need to work to reach your financial goal.",
-      clientImg: clientTwo,
-      clientNickname: "Wahid Ari",
-      clientJob: "Designer",
-    },
-    {
-      id: 3,
-      text: "Product helps you see how many more days you need to work to reach your financial goal.",
-      clientImg: clientThree,
-      clientNickname: "Wahid Ari",
-      clientJob: "Designer",
-    },
-  ];
   return (
     <div className="client-feedback container">
       <h1 className="font-size_3451">What Clients Say</h1>

@@ -1,7 +1,7 @@
 import React from "react";
-import str1 from "../../media/str1.png";
-import str2 from "../../media/str2.png";
-import str3 from "../../media/str3.png";
+import str1 from "../../media/images/str1.png";
+import str2 from "../../media/images/str2.png";
+import str3 from "../../media/images/str3.png";
 function Item() {
   const imageData = [
     {
