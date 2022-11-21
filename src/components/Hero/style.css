@@ -14,7 +14,7 @@
   line-height: 60px;
   color: var(--secondary);
 }
-.dark .hero-left h1{
+.dark .hero-left h1 {
   color: var(--white);
 }
 .hero-left p {
@@ -26,7 +26,7 @@
   line-height: 28px;
   color: var(--secondary);
 }
-.dark .hero-left p{
+.dark .hero-left p {
   color: var(--white);
 }
 .hero__btn-group {
@@ -43,7 +43,7 @@
   font-weight: 600;
   transition: all 0.3s ease-in;
 }
-.dark .watch-video svg path{
+.dark .watch-video svg path {
   fill: #ffffff;
 }
 .watch-video:hover {
@@ -71,10 +71,10 @@
     font-size: 17px;
     line-height: 25px;
   }
-  .hero__btn-group{
+  .hero__btn-group {
     gap: 25px;
   }
-  .get-started--btn{
+  .hero .btn {
     width: 150px;
   }
 }
@@ -92,11 +92,11 @@
     font-size: 16px;
     line-height: 23px;
   }
-  .get-started--btn{
+  .hero .btn {
     width: 130px;
     font-size: 15px;
   }
-  .watch-video{
+  .watch-video {
     font-size: 14px;
   }
 }
@@ -104,7 +104,7 @@
   .hero-right img {
     width: 370px;
   }
-  .hero{
+  .hero {
     flex-direction: column;
     text-align: center;
   }
@@ -119,14 +119,14 @@
     margin-bottom: 25px;
     line-height: 25px;
   }
-  .get-started--btn{
+  .hero .btn {
     width: 175px;
     font-size: 16px;
     height: 53px;
   }
 }
 @media screen and (max-width: 426px) {
-  .hero{
+  .hero {
     margin-bottom: 50px;
   }
   .hero-right img {
@@ -139,14 +139,14 @@
     font-size: 14px;
     line-height: 25px;
   }
-  .get-started--btn{
+  .hero .btn {
     width: 140px;
     font-size: 12px;
     height: 45px;
   }
 }
 @media screen and (max-width: 400px) {
-  .hero__btn-group{
+  .hero__btn-group {
     flex-direction: column;
   }
 }

@@ -10,6 +10,7 @@
   --lightgray: #dedede;
   --gray: #737373;
   --darkblue: #252b42;
+  --darkgreen: #016156;
 }
 * {
   margin: 0;
@@ -86,9 +87,13 @@
   color: var(--green);
   background-color: var(--white);
 }
-.dark .btn{
+.dark .btn {
   background: var(--white);
   color: var(--secondary);
+}
+.dark .btn:hover {
+  background: var(--darkgreen);
+  color: var(--white);
 }
 @media screen and (max-width: 1170px) {
   .container {
@@ -169,5 +174,3 @@
     line-height: 43px;
   }
 }
-
-

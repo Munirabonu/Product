@@ -48,7 +48,7 @@
 }
 .menu--link a:active,
 .menu--link a:hover {
-  color: var(--green);
+  color: var(--darkgreen);
 }
 .navbar__btn-group {
   display: flex;
@@ -81,6 +81,14 @@
   color: var(--white);
 }
 .dark .sign-up__btn {
+  background: var(--white);
+  color: var(--secondary);
+}
+.dark .sign-up__btn:hover {
+  background: var(--darkgreen);
+  color: var(--white);
+}
+.dark .sign-in__btn:hover {
   background: var(--white);
   color: var(--secondary);
 }

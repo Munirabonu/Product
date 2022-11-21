@@ -1,14 +1,15 @@
 .process {
   width: 100%;
+  margin: 150px 0;
   background: url(../../media/images/bg_top.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
-  padding: 50px 0 90px 0;
+  padding-top: 52px;
   text-align: center;
 }
 .cards {
-  margin: 40px 100px;
+  margin: 32px 50px 48px 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -25,7 +26,18 @@
   font-size: 16px;
   line-height: 24px;
 }
-
+.process__btn {
+  width: 216px;
+}
+.process .font-size_1626 {
+  font-weight: 500;
+}
+.dark .process .font-size_1626{
+  color: var(--dark);
+}
+.dark .process .font-size_3248{
+  color: var(--dark);
+}
 @media (max-width: 768px) {
   .process .cards {
     display: block;
