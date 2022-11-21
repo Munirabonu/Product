@@ -15,6 +15,7 @@
   justify-content: space-between;
   gap: 50px;
 }
+
 .price_card_item {
   transition: all .3s;
   height: 456px;
@@ -117,6 +118,9 @@
 .price_card_item:hover .card_btn {
   background-color: white;
   color: #02897a;
+}
+.dark .price_card_item:hover {
+  background-color: #016156;
 }
 
 @media (max-width:768px) {

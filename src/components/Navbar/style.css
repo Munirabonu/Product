@@ -40,7 +40,7 @@
   display: flex;
   align-items: center;
   gap: 30px;
-  transition: 0.3s ease-in;
+  transition: color 0.1s linear;
   list-style-type: none;
 }
 .menu--link a {
@@ -48,7 +48,7 @@
 }
 .menu--link a:active,
 .menu--link a:hover {
-  font-weight: 600;
+  color: var(--green);
 }
 .navbar__btn-group {
   display: flex;
@@ -76,13 +76,13 @@
   border-radius: 4px;
   color: var(--white);
 }
+.sign-in__btn:hover {
+  background: var(--green);
+  color: var(--white);
+}
 .dark .sign-up__btn {
   background: var(--white);
   color: var(--secondary);
-}
-.sign-in__btn:hover {
-  background: var(--secondary);
-  color: var(--white);
 }
 .sign-up__btn:hover {
   color: var(--green);
@@ -146,13 +146,13 @@
   top: calc(50% - 1px);
   left: 30%;
   width: 40%;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid var(--dark);
   transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .dark .menu-btn span,
 .dark .menu-btn:before,
 .dark .menu-btn:after {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid var(--white);
 }
 .menu-btn:before {
   transform: translateY(-8px);
