@@ -38,8 +38,6 @@
   gap: 10px;
 }
 .per_price {
-  font-family: "Poppins";
-  font-style: normal;
   font-weight: 700;
   font-size: 76px;
   line-height: 100px;
@@ -50,11 +48,6 @@
 
 .per_status {
   font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
-  letter-spacing: 0.1px;
   color: var(--green);
 }
 .per_type {
@@ -62,37 +55,16 @@
   letter-spacing: 0.1px;
   color: #afafaf;
 }
-.card_operators {
+
+.card_add {
   font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0.2px;
-  color: var(--secondary);
-}
-.card_add_one {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0.2px;
   color: var(--secondary);
 }
 .card_btn {
   width: 139px;
   height: 44px;
-  background: var(--green);
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: var(--white);
   display: block;
-  border: none;
   margin: auto;
-  transition: all 0.2s ease;
 }
 .price_card_item:hover {
   background-color: var(--green);
@@ -107,21 +79,38 @@
 .dark .price_card_item:hover {
   background-color: var(--darkgreen);
 }
-.dark .price_card_item:hover .per_type{
+.dark .price_card_item:hover .per_type {
   color: var(--white);
 }
-.dark .price_card_item:hover .card_desc{
+.dark .price_card_item:hover .card_desc {
   color: var(--white);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .price_cards {
     gap: 20px;
+  }
+  .price_card_item {
+    height: 400px;
+  }
+  .per_price {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .price_cards {
+    gap: 10px;
+  }
+  .price_card_item {
+    height: 370px;
+  }.card_add {
+    font-size: 14px;
   }
 }
 @media (max-width: 480px) {
   .price_cards {
-    grid-template-columns: 1fr;
+    grid-template-columns: 80%;
+    justify-content: center;
     gap: 40px;
   }
 }

@@ -1,3 +1,6 @@
+.car p {
+  margin: 8px 0 33px 0;
+}
 .alice-carousel__dots-item:not(.__custom):hover,
 .alice-carousel__dots-item:not(.__custom).__active {
   background-color: var(--green);
@@ -21,4 +24,10 @@
 }
 .dark .alice-carousel__dots-item:not(.__custom) {
   background: var(--lightgray);
+}
+
+@media (max-width:1024px) {
+ .car h1 , p {
+   text-align: center;
+  }
 }

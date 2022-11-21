@@ -22,14 +22,14 @@ export default function Process() {
               <img src={pitch} alt="" />
               <p className="font-size_1626">I can take care of your pitch</p>
             </div>
-            <div className="card_item right">
+            <div className="card_item">
               <p className="font-size_1626">I can design you website</p>
               <img src={design} alt="" />
             </div>
           </div>
 
           <div className="cards_col">
-            <div className="card_item right">
+            <div className="card_item">
               <p className="font-size_1626">I can prototype your app</p>
               <img src={app} alt="" />
             </div>

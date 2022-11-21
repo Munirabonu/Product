@@ -13,8 +13,11 @@ const items = imageData.map(({ id, img, by, date, text }) => {
 const Carousel = () => {
   return (
     <div className="car container">
+      <h1 className="font-size_3451">Contents Strategies</h1>
+      <p className="font-size_1626">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
       <AliceCarousel
         autoPlay
+        autoPlayInterval={1500}
         mouseTracking
         infinite
         disableButtonsControls

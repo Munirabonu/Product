@@ -19,14 +19,14 @@ export default function Price() {
               <div className="per_wrap">
                 <p className="per_price">{item?.price}</p>
                 <div className="per_text">
-                  <p className="per_status">$</p>
+                  <p className="per_status font-size_2233">$</p>
                   <p className="per_type font-size_1626">Per/month</p>
                 </div>
               </div>
-              <p className="card_operators">{item?.operators} Operators</p>
-              <p className="card_add_one">{item?.add_one}</p>
-              <p className="card_add_one">{item?.add_two}</p>
-              <button className="card_btn">Order Now</button>
+              <p className="card_add card_operators font-size_1626">{item?.operators} Operators</p>
+              <p className="card_add font-size_1626">{item?.add_one}</p>
+              <p className="card_add font-size_1626">{item?.add_two}</p>
+              <button className="card_btn btn">Order Now</button>
             </div>
           );
         })}
