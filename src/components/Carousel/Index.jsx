@@ -10,7 +10,7 @@ const items = imageData.map(({ id, img, by, date, text }) => {
   return <Card id={id} img={img} by={by} date={date} text={text} />;
 });
 
-const Car = () => {
+const Carousel = () => {
   return (
     <div className="car container">
       <AliceCarousel
@@ -34,4 +34,4 @@ const Car = () => {
     </div>
   );
 };
-export default Car;
+export default Carousel;

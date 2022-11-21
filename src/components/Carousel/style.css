@@ -1,0 +1,3 @@
+ .alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
+    background-color: #02897A;
+}

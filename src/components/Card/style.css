@@ -6,6 +6,9 @@
   color: #22343d;
   border: 1px solid #dedede;
 }
+.card_wrap img {
+  width: 100%;
+}
 .text_wrap {
   padding: 24px;
 }
