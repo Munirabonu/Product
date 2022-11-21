@@ -5,18 +5,16 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 import { imageData } from "../../utils/car";
 import Card from "../Card/Index";
-
+import "./style.css";
 const items = imageData.map(({ id, img, by, date, text }) => {
   return <Card id={id} img={img} by={by} date={date} text={text} />;
 });
 
 const Car = () => {
   return (
-    <div className="container car">
+    <div className="car container">
       <AliceCarousel
         mouseTracking
-        autoPlay
-        autoPlayInterval="1500"
         infinite
         disableButtonsControls
         items={items}
