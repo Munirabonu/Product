@@ -47,4 +47,26 @@ export const imageData = [
       date:"03 March 2019",
       text: "Success Steps For Your Personal Or Business",
     },
+    
+    {
+      id: 7,
+      img: str1,
+      by:"Wahid Ari",
+      date:"03 March 2019",
+      text: "Increasing Prosperity With Positive Thinking",
+    },
+    {
+      id: 8,
+      img: str2,
+      by:"Wahid Ari",
+      date:"03 March 2019",
+      text: "Motivation Is The First Step To Success",
+    },
+    {
+      id: 9,
+      img: str3,
+      by:"Wahid Ari",
+      date:"03 March 2019",
+      text: "Success Steps For Your Personal Or Business",
+    },
   ];
