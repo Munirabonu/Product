@@ -14,6 +14,7 @@ const Car = () => {
   return (
     <div className="car container">
       <AliceCarousel
+        autoPlay
         mouseTracking
         infinite
         disableButtonsControls
