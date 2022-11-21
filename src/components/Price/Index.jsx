@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-
+import bg from "../../media/bg.png";
 import { price } from "../../utils/price";
 export default function Price() {
   return (
@@ -9,8 +9,8 @@ export default function Price() {
         {price?.map((item) => {
           return (
             <div className="price_card_item">
-              <p className="card_title">{item.title}</p>
-              <p className="card_desc">{item?.desc}</p>
+              <p className="card_title font-size_2233">{item.title}</p>
+              <p className="card_desc font-size_1626">{item?.desc}</p>
               <div className="per_wrap">
                 <p className="per_price">{item?.price}</p>
                 <div className="per_text">
