@@ -1,9 +1,9 @@
 import React from "react";
 
-import pitch from "../../media/pitch.png";
-import design from "../../media/design.png";
-import app from "../../media/app.png";
-import web from "../../media/web.png";
+import pitch from  "../../media/images/pitch.png";
+import design from "../../media/images/design.png";
+import app from "../../media/images/app.png";
+import web from "../../media/images/web.png";
 
 import "./style.css";
 export default function Process() {
