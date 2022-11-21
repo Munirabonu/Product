@@ -36,9 +36,18 @@
   line-height: 30px;
   color: var(--green);
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.join--btn:hover{
+  background: var(--darkgreen);
+  color: var(--white);
 }
 .dark .join--btn{
   background: var(--secondary);
+  color: var(--white);
+}
+.dark .join--btn:hover{
+  background: var(--darkgreen);
   color: var(--white);
 }
 @media screen and (max-width: 1170px) {

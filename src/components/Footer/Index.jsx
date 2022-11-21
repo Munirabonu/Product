@@ -15,9 +15,9 @@ export default function Footer() {
             <h1 className="logo-title">Product</h1>
           </div>
           <div className="link_icon">
-          <Facebook />
-          <Instagram />
-          <Twitter />
+            <Facebook />
+            <Instagram />
+            <Twitter />
           </div>
         </div>
         <ul className="links">
@@ -78,7 +78,9 @@ export default function Footer() {
           </li>
         </ul>
         <form>
-          <p className="form_text">knowing you're always on the best energy deal.</p>
+          <p className="form_text">
+            knowing you're always on the best energy deal.
+          </p>
           <input type="text" />
           <button className="btn">Sign up Now</button>
         </form>

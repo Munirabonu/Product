@@ -17,7 +17,7 @@
 }
 
 .price_card_item {
-  transition: all 0.3s;
+  transition: all 0.1s linear;
   height: 456px;
   display: grid;
   align-content: space-between;
@@ -47,6 +47,7 @@
   letter-spacing: 0.2px;
   color: var(--green);
 }
+
 .per_status {
   font-family: "Inter";
   font-style: normal;
@@ -91,7 +92,7 @@
   display: block;
   border: none;
   margin: auto;
-  transition: all 0.2s;
+  transition: all 0.2s ease;
 }
 .price_card_item:hover {
   background-color: var(--green);
@@ -105,6 +106,12 @@
 }
 .dark .price_card_item:hover {
   background-color: var(--darkgreen);
+}
+.dark .price_card_item:hover .per_type{
+  color: var(--white);
+}
+.dark .price_card_item:hover .card_desc{
+  color: var(--white);
 }
 
 @media (max-width: 768px) {
