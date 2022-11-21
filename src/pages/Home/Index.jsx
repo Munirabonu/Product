@@ -11,7 +11,6 @@ import Price from "../../components/Price/Index";
 import Process from "../../components/Process/Index";
 import ClientFeedback from "../../components/ClientsFeedback/Index";
 import Footer from "../../components/Footer/Index";
-import Carousell from "../../components/Carousel/Index"
 import Car from "../../components/Car/Index";
 
 export default function Home() {
@@ -24,7 +23,6 @@ export default function Home() {
       <CustomerSupport />
       <Collaborative />
       <Process />
-      <Carousell/>
       <Car />
       <Price />
       <ClientFeedback />
