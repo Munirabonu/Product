@@ -1,16 +1,24 @@
- .alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active {
-    background-color: #02897A;
+.alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item:not(.__custom).__active {
+  background-color: var(--green);
 }
 .alice-carousel__dots {
-    margin: 64px 0 0 0;
+  margin: 64px 0 0 0;
 }
-.alice-carousel__dots-item:not(.__custom){
-    width: 16px;
-    height: 16px;
+.alice-carousel__dots-item:not(.__custom) {
+  width: 16px;
+  height: 16px;
 }
-.alice-carousel__dots-item:not(.__custom):not(:last-child){
-    margin-right: 10px;
+.alice-carousel__dots-item:not(.__custom):not(:last-child) {
+  margin-right: 10px;
 }
-.alice-carousel__dots-item:not(.__custom){
-    background: #EFEFEF;
+.alice-carousel__dots-item:not(.__custom) {
+  background: #efefef;
+}
+.dark .alice-carousel__dots-item:not(.__custom):hover,
+.dark .alice-carousel__dots-item:not(.__custom).__active {
+  background-color: var(--secondary);
+}
+.dark .alice-carousel__dots-item:not(.__custom) {
+  background: var(--lightgray);
 }

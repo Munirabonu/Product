@@ -44,6 +44,14 @@
 .dark .font-size_2233 {
   color: var(--white);
 }
+.font-size_2440 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343d;
+}
 .font-size_3248 {
   margin-bottom: 23px;
   font-family: "Poppins";

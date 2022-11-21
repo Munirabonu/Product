@@ -6,7 +6,7 @@ export default function Card({id,img,by,date,text}) {
         <img src={img} alt='card' />
         <div className="text_wrap">
           <h1 className='font-size_1626'>By <span>{by}</span> |  {date}</h1>
-          <p className='font-size_2233'>{text}</p>
+          <p className='font-size_2440'>{text}</p>
         </div>
     </div>
   )

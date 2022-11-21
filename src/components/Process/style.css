@@ -9,7 +9,7 @@
   text-align: center;
 }
 .cards {
-  margin: 32px 50px 48px 50px;
+  margin: 32px 70px 48px 70px;
   display: flex;
   justify-content: space-between;
 }
@@ -20,7 +20,7 @@
 }
 .card_item p {
   padding: 13px 25px;
-  background: #ffffff;
+  background: var(--white);
   box-shadow: 0px 2px 15px rgba(23, 58, 86, 0.1);
   border-radius: 26.5px;
   font-size: 16px;
