@@ -10,6 +10,7 @@
   --lightgray: #dedede;
   --gray: #737373;
   --darkblue: #252b42;
+  --darkgreen: #016156;
 }
 * {
   margin: 0;
@@ -42,6 +43,14 @@
 }
 .dark .font-size_2233 {
   color: var(--white);
+}
+.font-size_2440 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #22343d;
 }
 .font-size_3248 {
   margin-bottom: 23px;
@@ -86,9 +95,13 @@
   color: var(--green);
   background-color: var(--white);
 }
-.dark .btn{
+.dark .btn {
   background: var(--white);
   color: var(--secondary);
+}
+.dark .btn:hover {
+  background: var(--darkgreen);
+  color: var(--white);
 }
 @media screen and (max-width: 1170px) {
   .container {
