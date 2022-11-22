@@ -1,0 +1,152 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 33px;
+  margin-bottom: 104px;
+}
+.hero-left h1 {
+  margin-bottom: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--secondary);
+}
+.dark .hero-left h1 {
+  color: var(--white);
+}
+.hero-left p {
+  margin-bottom: 45px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--secondary);
+}
+.dark .hero-left p {
+  color: var(--white);
+}
+.hero__btn-group {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.watch-video {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--green);
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+}
+.dark .watch-video svg path {
+  fill: #ffffff;
+}
+.watch-video:hover {
+  color: var(--dark);
+  text-decoration: none;
+}
+@media screen and (max-width: 1150px) {
+  .hero-right img {
+    width: 100%;
+    width: 500px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .hero-right img {
+    width: 430px;
+  }
+  .hero-left h1 {
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .hero-left p {
+    margin-bottom: 40px;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .hero__btn-group {
+    gap: 25px;
+  }
+  .hero .btn {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hero-right img {
+    width: 370px;
+  }
+  .hero-left h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .hero-left p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .hero .btn {
+    width: 130px;
+    font-size: 15px;
+  }
+  .watch-video {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-right img {
+    width: 370px;
+  }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero__btn-group {
+    justify-content: center;
+  }
+  .hero-left h1 {
+    margin-bottom: 11px;
+    line-height: 40px;
+  }
+  .hero-left p {
+    margin-bottom: 25px;
+    line-height: 25px;
+  }
+  .hero .btn {
+    width: 175px;
+    font-size: 16px;
+    height: 53px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .hero {
+    margin-bottom: 50px;
+  }
+  .hero-right img {
+    width: 290px;
+  }
+  .hero-left h1 {
+    font-size: 25px;
+  }
+  .hero-left p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .hero .btn {
+    width: 140px;
+    font-size: 12px;
+    height: 45px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero__btn-group {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,129 @@
+.client-feedback {
+  margin-bottom: 150px;
+}
+.client-feedback h1 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.client-feedback__text {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--secondary);
+}
+.dark .client-feedback__text{
+  color: var(--white);
+}
+.client-feedback__map {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+  align-items: center;
+}
+.client-feedback__map--item {
+  padding: 25px 0 25px 25px;
+  max-width: 327px;
+  background: var(--white);
+  border: 1px solid var(--lightgray);
+  border-radius: 5px;
+}
+.star-box {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.client-feedback__map--item p {
+  margin-bottom: 16px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: var(--gray);
+}
+.dark .client-feedback__map--item p{
+  color: var(--gray);
+}
+.client-info__box {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.client-name__box h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--green);
+}
+.client-name__box h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: var(--darkblue);
+}
+@media screen and (max-width: 1170px) {
+  .client-feedback__map--item {
+    padding: 25px 20px;
+  }
+  .client-feedback__map {
+    gap: 45px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .client-feedback__map--item {
+    padding: 20px 15px;
+  }
+  .client-feedback__map {
+    gap: 35px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .client-feedback__map {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .client-feedback__map {
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .client-feedback__map--item {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 770px) {
+  .client-feedback__map--item {
+    text-align: center;
+  }
+  .star-box {
+    justify-content: center;
+  }
+  .client-info__box {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 470px) {
+  .client-feedback__map--item p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .client-feedback {
+    margin-bottom: 50px;
+  }
+}

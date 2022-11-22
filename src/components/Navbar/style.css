@@ -1,0 +1,254 @@
+.dark {
+  background-color: var(--green);
+  color: var(--white);
+}
+.light {
+  background-color: var(--white);
+  color: var(--green);
+}
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  margin-bottom: 25px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.logo-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 28px;
+  color: var(--blue);
+}
+.dark .logo-title {
+  color: var(--white);
+}
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.menu-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  transition: color 0.1s linear;
+  list-style-type: none;
+}
+.menu--link a {
+  text-decoration: none;
+}
+.menu--link a:active,
+.menu--link a:hover {
+  color: var(--darkgreen);
+}
+.navbar__btn-group {
+  display: flex;
+  gap: 24px;
+}
+.navbar__btn-group button {
+  height: 43px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.sign-in__btn {
+  width: 102px;
+  border: none;
+  color: var(--blue);
+  border: 1px solid var(--lightblue);
+  border-radius: 4px;
+  background: transparent;
+}
+.sign-up__btn {
+  width: 110px;
+  border: none;
+  background: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 4px;
+  color: var(--white);
+}
+.sign-in__btn:hover {
+  background: var(--green);
+  color: var(--white);
+}
+.dark .sign-up__btn {
+  background: var(--white);
+  color: var(--secondary);
+}
+.dark .sign-up__btn:hover {
+  background: var(--darkgreen);
+  color: var(--white);
+}
+.dark .sign-in__btn:hover {
+  background: var(--white);
+  color: var(--secondary);
+}
+.sign-up__btn:hover {
+  color: var(--green);
+  background-color: var(--white);
+}
+.theme--btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.mobile-menu {
+  display: none;
+}
+@media (max-width: 1000px) {
+  .nav {
+    display: none;
+  }
+  .mobile-menu {
+    display: block;
+    margin-left: 45px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 700px) {
+  .navbar__btn-group {
+    display: none;
+  }
+}
+
+.wrapper {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100%;
+  width: 100%;
+  background: var(--green);
+  transition: all 0.6s ease-in-out;
+}
+#active:checked ~ .wrapper {
+  right: 0;
+}
+.menu-btn {
+  position: absolute;
+  z-index: 2;
+  right: 5px;
+  top: 2px;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.menu-btn span,
+.menu-btn:before,
+.menu-btn:after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 1px);
+  left: 30%;
+  width: 40%;
+  border-bottom: 2px solid var(--dark);
+  transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.dark .menu-btn span,
+.dark .menu-btn:before,
+.dark .menu-btn:after {
+  border-bottom: 2px solid var(--white);
+}
+.menu-btn:before {
+  transform: translateY(-8px);
+}
+.menu-btn:after {
+  transform: translateY(8px);
+}
+
+.close {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transition: background 0.6s;
+}
+
+/* closing animation */
+#active:checked + .menu-btn span {
+  transform: scaleX(0);
+}
+#active:checked + .menu-btn:before {
+  transform: rotate(45deg);
+  border-color: #fff;
+}
+#active:checked + .menu-btn:after {
+  transform: rotate(-45deg);
+  border-color: #fff;
+}
+.wrapper ul {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  height: 90%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+}
+.wrapper ul li {
+  height: 15%;
+  margin: 15px 0;
+}
+.wrapper ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 500;
+  padding: 5px 30px;
+  color: #fff;
+  border-radius: 50px;
+  position: absolute;
+  line-height: 50px;
+  margin: 5px 20px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  transition: transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.wrapper ul li a:after {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: 50px;
+  transform: scaleY(0);
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+.wrapper ul li a:hover:after {
+  transform: scaleY(1);
+}
+.wrapper ul li a:hover {
+  color: var(--secondary);
+}
+input[type="checkbox"] {
+  display: none;
+}
+
+#active:checked ~ .wrapper ul li a {
+  opacity: 1;
+}
+.wrapper ul li a {
+  transition: opacity 1.2s, transform 1.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform: translateX(100px);
+}
+#active:checked ~ .wrapper ul li a {
+  transform: none;
+  transition-timing-function: ease, cubic-bezier(0.1, 1.3, 0.3, 1);
+  transition-delay: 0.6s;
+  transform: translateX(-100px);
+}
